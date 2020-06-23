@@ -1,5 +1,5 @@
 # openemp-api-message
-OpenEMP Messaging Service API built with [strapi](https://strapi.io/).
+[OPENEMP](https://github.com/openemp) Messaging Service API built with [strapi](https://strapi.io/).
 
 ## How to use
 
