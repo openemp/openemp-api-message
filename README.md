@@ -11,3 +11,8 @@ OpenEMP Messaging Service API built with [strapi](https://strapi.io/).
 ```
 - Navigate to http://localhost:1337/admin
 USERNAME: admin  and PASSWORD: password
+
+- TEST the API using GET REQUEST
+```
+    http://localhost:1337/messages
+```
