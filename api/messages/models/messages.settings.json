@@ -11,7 +11,7 @@
   "attributes": {
     "uuid": {
       "type": "uid",
-      "private": true
+      "private": false
     },
     "sender": {
       "type": "uid"
