@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "messages",
+  "info": {
+    "name": "Messages"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "uuid": {
+      "type": "uid",
+      "private": false
+    },
+    "sender": {
+      "type": "uid"
+    },
+    "receiver": {
+      "type": "uid"
+    },
+    "creation_date": {
+      "type": "datetime"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "msg_subject": {
+      "type": "string"
+    },
+    "msg_id": {
+      "type": "uid"
+    },
+    "read": {
+      "type": "boolean"
+    },
+    "retired": {
+      "type": "boolean"
+    }
+  }
+}
